@@ -1,0 +1,107 @@
+/* Import form google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Universal Sytle */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato' , sans-serif;
+}
+
+/* Common shared styles */
+.text-primary{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    line-height: 30px;
+}
+.btn-primary{
+    background: #E55473;
+    color: #ffffff;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+/* header part styling */
+header{
+    height: 100vh;
+    background: #E554731A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 140px;
+}
+.header-text{
+    width:45% ;
+}
+.header-text h1{
+    color: #272727;
+    font-size: 57px;
+    font-weight: 800;
+}
+.header-text p{
+
+}
+.header-img{
+    margin-top: 36px;
+}
+
+/* feature section styling */
+.feature{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.feature-title{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.feature-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0px 140px;
+    margin-top: 35px;
+}
+.feature-img .img-1 img , .feature-img .img-2 img , .feature-img .img-3 img{
+    width: 300px;
+    height: 340px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 35px 30px 0px 30px;
+}
+.feature-img .img-2 img{
+    background: rgba(5, 151, 160, 0.15);
+}
+.feature-img .img-3 img{
+    background: rgba(71, 125, 17, 0.15);
+}
+.feature .img-1 , .img-2 , .img-3 p{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* Optional */
+.optional{
+    height: 30vh;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px 140px 0px 140px;
+    padding: 0px 90px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.optional div p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 14px;
+    font-weight: 600;
+}

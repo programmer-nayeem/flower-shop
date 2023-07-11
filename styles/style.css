@@ -125,3 +125,59 @@ header{
     width: 220px;
     height: 320px;
 }
+
+/* Instagram section styling */
+.instagram{
+    height: 80vh;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+.insta-title{
+    color: #272727;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.insta-img{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 140px;
+}
+.insta-img img{
+    width: 255px;
+    height: 325px;
+    border-radius: 2px;
+}
+
+/* Subscribtion section styling */
+.subscribe{
+    margin: 80px 140px 0px 140px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.subscribe img{
+    height: 295px;
+    width: 1056px;
+    text-align: center;
+}
+.subscribe-text{
+    position: absolute;
+    top: 29%;
+    left: 26%;
+}
+.subscribe-text h1{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.subscribe-text input[type="email"]{
+    padding: 12px 250px 12px 10px;
+    margin: 0px 5px 0px 0px;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+}
